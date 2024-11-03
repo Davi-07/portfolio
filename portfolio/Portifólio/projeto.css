@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    background-color: #252222;
+    color: #FCEFBD;
+    font-family: "Corben", serif;
+}
+
+#barra{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 12vh;
+}
+
+#barra a{
+    font-size: 22px;
+    text-decoration: none;
+}
+
+#barra ul{
+    display: none;
+}
+
+.spc{
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 27px;
+}
+#projetos{
+    height: 150px;
+    display: flex;
+    font-weight: bold;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2%;
+}
+
+#principal{
+    display: flex;
+    justify-content: space-around;
+}
+
+.prjQuadrado{
+    width: 310px;
+    height: 420px;
+    border: 3px solid #FCEFBD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.prjTexto{
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+
+}
+
+.prjQuadrado b{
+    font-size: 60px;
+    color: white;
+}
+
+#secundaria{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+#botao{
+    display: flex;
+    width: 310px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #FCEFBD;
+    font-size: 30px;
+}
+
+#Perfil b{
+    color: white;
+}
+
+#git{
+    height: 60px;
+    width: 60px;
+    padding-left: 15%;
+}
